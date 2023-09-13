@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.signin{color: white;display:flex;justify-content: center;}
+.semail{color: white;display:flex;justify-content: center;}
+.spass{color: white;display:flex;justify-content: center;}
+.sign{color: white;display:flex;justify-content: center;margin: 5px;}
+input{display:inline-block;width: 200px;text-align: center;}
+table{display: flex;justify-content: center;margin: 0;padding: 0;background-size: cover;background-position: center;}
+/* @import url('https://fonts.googleapis.com/css2?family=wgth@300;400;500;600;700;800;900&display=swap'); */
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'poppins',sans-serif;}
+body{display: flex;justify-content: center;align-items: center;background:rgb(156, 204, 221);min-height: 100vh;}
+.box{position: relative;width: 370px;height: 450px;background:lightblue;border-radius: 50px 5px;}
+/* form{position: absolute;inset: 2px;border-radius: 50px 5px;background: blue;z-index: 10;padding: 30px 30px;display: flex;flex-direction: column;} */
+    </style>
+
+<div class="box">
+    <!-- <form> -->
+<table>
+    <tr>
+        <td>
+<div class="signin">
+<h2>Sign In</h2><br><br>
+  </div>
+</td>
+</tr>
+<tr><td><hr></td></tr>
+<br><br>
+<tr>
+<td>
+    <h5 class="sign">Email Address</h5>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<div class="semail">
+
+<input type="text" name="Email" id="lemail" placeholder="Enter Email Address"><br><br>
+</div>
+</td>
+</tr>
+
+
+<tr>
+<td>
+    <h5 class="sign">Email Password</h5>
+</td>
+</tr>
+
+
+
+
+
+<tr>
+<td>
+<div class="spass">
+
+<input type="password" name="Password" id="lpass" placeholder="Enter Email Password"><br><br>
+</div>
+</td>
+</tr>
+<br><br>
+
+
+
+<tr>
+<td>
+    <br><br>
+    <div class="sign">
+<button onclick="signin()">Sign In</button>
+</div></td>
+</tr>
+</table>
+<!-- </form> -->
+</div>
+<script src="app.js"></script>
+</body>
+</html>

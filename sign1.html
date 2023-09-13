@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.signup{color: white;display:flex;justify-content: center;}
+.semail{color: white;display:flex;justify-content: center;}
+.spass{color: white;display:flex;justify-content: center;}
+.sign{color: white;display:flex;justify-content: center;margin: 5px;}
+input{display:inline-block;width: 200px;text-align: center;}
+table{display: flex;justify-content: center;margin: 0;padding: 0;background-size: cover;background-position: center;}
+/* @import url('https://fonts.googleapis.com/css2?family=wgth@300;400;500;600;700;800;900&display=swap'); */
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'poppins',sans-serif;}
+body{display: flex;justify-content: center;align-items: center;background:rgb(156, 204, 221);min-height: 100vh;}
+.box{position: relative;width: 370px;height: 450px;background:lightblue;border-radius: 50px 5px;}
+/* .bor::before{content: '';position:absolute;top: -50px;left: -50;width: 370px;height: 450px;background: linear-gradient(60deg,transparent),#45f3ff,#45f3ff;transform-origin: bottom right;animation: animate 6s linear infinite;overflow: hidden;}
+.box::after{content: '';position:absolute;top: -50px;left: -50;width: 370px;height: 450px;background: linear-gradient(60deg,transparent),#d9138a,#d9138a;transform-origin: bottom right;animation: animate 6s linear infinite;animation-delay: 3s;}
+@keyframes animate
+{ 
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+transform: rotate(360deg);
+    }
+} */
+/* form{position: absolute;inset: 2px;border-radius: 50px 5px;background: rgb(92, 92, 211);z-index: 10;padding: 30px 30px;display: flex;flex-direction: column;}    */
+   </style>
+</head>
+<body>
+    
+    <div class="box">
+        <!-- <form> -->
+    <table>
+        <tr>
+            <td>
+<div class="signup">
+    <h2>Sign Up</h2><br><br>
+      </div>
+    </td>
+</tr>
+<tr><td><hr></td></tr>
+<br><br>
+
+<tr>
+    <td>
+        <h5 class="sign">Enter User Name</h5>
+</td>
+</tr>
+
+
+
+<tr>
+    <td>
+   <div class="sign">
+    
+<input type="text" name="Email" id="sname" placeholder="Enter User Name"><br><br>
+</div>
+</td>
+</tr>
+
+
+<br><br>
+<tr>
+    <td>
+        <h5 class="sign">Email Address</h5>
+</td>
+</tr>
+
+
+
+<tr>
+    <td>
+   <div class="sign">
+    
+<input type="text" name="Email" id="semail" placeholder="Enter Email Address"><br><br>
+</div>
+</td>
+</tr>
+
+
+<tr>
+    <td>
+        <h5 class="sign">Email Password</h5>
+</td>
+</tr>
+
+
+
+
+
+<tr>
+    <td>
+<div class="spass">
+    
+<input type="password" name="Password" id="spass" placeholder="Enter Email Password"><br><br>
+</div>
+</td>
+</tr>
+<br><br>
+
+
+
+<tr>
+    <td>
+        <br><br>
+<div class="sign">
+<button onclick="signup()">Sign Up</button>
+</div>
+</td>
+</tr>
+</table>
+<!-- </form> -->
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>
